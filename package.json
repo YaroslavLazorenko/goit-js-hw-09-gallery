@@ -6,21 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url /parcel-test/",
+    "build": "parcel build ./src/index.html --public-url /goit-js-hw-09-gallery/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YaroslavLazorenko/Parcel-test.git"
+    "url": "git+https://github.com/YaroslavLazorenko/goit-js-hw-09-gallery.git"
   },
   "keywords": [],
   "author": "Yaroslav Lazorenko <lazorenko85@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YaroslavLazorenko/Parcel-test/issues"
+    "url": "https://github.com/YaroslavLazorenko/goit-js-hw-09-gallery/issues"
   },
-  "homepage": "https://github.com/YaroslavLazorenko/Parcel-test",
+  "homepage": "https://github.com/YaroslavLazorenko/goit-js-hw-09-gallery",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.41.1"
