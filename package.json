@@ -1,0 +1,31 @@
+{
+  "name": "gallery-parcel-hw9",
+  "version": "1.0.0",
+  "description": "Homework #9 - rebuild homework #8 using parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /parcel-test/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavLazorenko/Parcel-test.git"
+  },
+  "keywords": [],
+  "author": "Yaroslav Lazorenko <lazorenko85@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaroslavLazorenko/Parcel-test/issues"
+  },
+  "homepage": "https://github.com/YaroslavLazorenko/Parcel-test",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
